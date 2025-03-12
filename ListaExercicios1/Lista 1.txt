@@ -1,0 +1,31 @@
+1>
+C = printf
+Prolog = write
+Ruby = puts
+
+2>
+a) O ano de nascimento
+b) Um cálculo que subtrai o ano que a pessoa nasceu do ano atual e passa essa informação para variável da idade
+c) O printf que exibe a idade na tela
+
+3>
+a)
+Entrada: Valor do salário base e o percentual de bônus aplicado.
+Saída: Valor final do salário
+Possíveis variáveis: float salarioBase; float bonusAplicado; float salarioFinal;
+
+b)
+Entrada: Quantos litros abasteceu e o preço por litro.
+Saída: Valor total da compra.
+Possíveis variáveis: float litrosAbastecidos; float precoLitro; float valorTotal;
+
+c)
+Entrada: Sexo, dia, mês e ano de nascimento, altura em metros e peso em kg.
+Saída: Nenhuma, já que apenas armazena.
+Possíveis varíaveis: char sexo; int dia; int mes; int anoDeNascimento; float altura; float peso;
+
+4>
+a) preco_final = preco_original + preco_original * 0,10 - 5;
+b) media_ponderada = (n1 * p1 + n2 * p2 + n3 * p3) / (p1 + p2 + p3);
+c) distancia_total = (tempo1 * velocidade1) + (tempo2 * velocidade2);
+d) y = (a * x * x) + (b * x) + c
