@@ -170,7 +170,7 @@ int main()
         //estimativa de quantos serao infectados naquele dia
         int estimativa = (infectados * (taxacontagio/100.0));
 
-        //garante que nao tenha mais infectados do que populacao disponivel para ser infectada
+        //garante que nao tenha mais novos infectados do que populacao disponivel para ser infectada
         if (estimativa>suscetiveis){
             novosinfectados = (int)suscetiveis;
         }
@@ -200,8 +200,6 @@ int main()
 
         //ajustando os valores caso toda populacao tenha sido infectada
           if (infectados >= populacao){
-
-           novosinfectados = saudaveis;
            infectados = populacao;}
 
         //printando o dia, numero de infectados do dia, e numero de novos infectados do dia, junto com o evento (caso ocorrer)
