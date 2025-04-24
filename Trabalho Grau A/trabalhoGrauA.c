@@ -144,7 +144,7 @@ int main()
         }
         else if (probevento <= 35) {
             mutacaomaiscontagiosa = 1;
-            strcpy(evento, "Mutacação mais contagiosa!");
+            strcpy(evento, "Mutação mais contagiosa!");
             taxacontagio += 50;
         }
         else {
