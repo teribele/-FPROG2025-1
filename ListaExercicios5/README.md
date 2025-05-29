@@ -1,0 +1,2 @@
+# -FPROG2025-1
+O arquivo a seguir é a lista de exercicios 5, onde todos arquivos estão em C e nomeados conforme o número do exercício. Há comentários no código indicando qual a letra da questão que está sendo resolvida com aquela parte.
